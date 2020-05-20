@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        function concentrate(first,last){
+            var full;
+            full = first + last;
+            return full;
+        }
+
+        function secondFunction(){
+            var result;
+           result = concentrate('Naga ','Shanmukha');
+            document.write(result);
+        }
+    </script>
+
+    <body>
+        <p>Click the following button to call the function</p>      
+        <form>
+            <input type="button" onclick="secondFunction()" value="call function">
+        </form>
+        <p>Use different parameters inside the function and then try...</p>  
+    </body>
+</html>
